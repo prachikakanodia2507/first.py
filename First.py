@@ -24,3 +24,22 @@ for i in range(len(X)):
 
 for r in result:
    print(r)
+
+#program to multiply factorial of a number
+num = int(input("Enter a number: "))  
+factorial = 1  
+if num < 0:  
+   print("Sorry, factorial does not exist for negative numbers")  
+elif num == 0:  
+   print("The factorial of 0 is 1")  
+else:  
+   for i in range(1,num + 1):  
+       factorial = factorial*i  
+   print("The factorial of",num,"is",factorial)  
+
+#program to fond area of circle
+from math import pi
+r = float(input ("Input the radius of the circle : "))
+print ("The area of the circle with radius " + str(r) + " is: " + str(pi * r**2))
+
+
