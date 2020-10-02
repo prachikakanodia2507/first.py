@@ -36,3 +36,10 @@ else:
    for i in range(1,num + 1):  
        factorial = factorial*i  
    print("The factorial of",num,"is",factorial)  
+
+#program to fond area of circle
+from math import pi
+r = float(input ("Input the radius of the circle : "))
+print ("The area of the circle with radius " + str(r) + " is: " + str(pi * r**2))
+
+
